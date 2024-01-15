@@ -1,20 +1,8 @@
 let inputBox = document.querySelector('input');
 let buttons = document.querySelectorAll('button');
 
-// it is taken to get result
 let string =""
-/*
-let arr = Array.from(buttons);
-arr.forEach(buttons =>{
-    buttons.addEventListener('click', (e) =>{
-        if(e.target.innerHTML == '='){
-            string = eval(string);
-            input.value = string;
-        }
-        
-    })
-})
-*/
+
 
 
 buttons.forEach(parameter => {
